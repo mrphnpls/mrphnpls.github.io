@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="342px" height="217px" viewBox="0 0 342 217" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="US-Patient" transform="translate(-6909.000000, -318.000000)">
+            <g id="Group-739">
+                <g id="Group-8" transform="translate(6909.000000, 318.000000)">
+                    <path d="M328.351,215.647 L328.351,215.147 L13.65,215.147 C10.291,215.147 7.26,213.788 5.06,211.589 C2.86,209.389 1.5,206.355 1.5,202.999 L1.5,13.295 C1.5,9.939 2.86,6.905 5.06,4.705 C7.26,2.506 10.291,1.147 13.65,1.147 L328.351,1.147 C331.71,1.147 334.74,2.506 336.94,4.705 C339.14,6.905 340.5,9.939 340.5,13.295 L340.5,202.999 C340.5,206.355 339.14,209.389 336.94,211.589 C334.74,213.788 331.71,215.147 328.351,215.147 L328.351,216.147 C335.61,216.147 341.5,210.261 341.5,202.999 L341.5,13.295 C341.5,6.034 335.61,0.147 328.351,0.147 L13.65,0.147 C6.391,0.147 0.5,6.034 0.5,13.295 L0.5,202.999 C0.5,210.261 6.391,216.147 13.65,216.147 L328.351,216.147 L328.351,215.647" id="Fill-678" fill="#EEC59B"></path>
+                    <g id="Group-7" transform="translate(1.000000, 0.000000)">
+                        <path d="M327.351,215.001 L12.65,215.001 C5.661,215.001 0,209.338 0,202.351 L0,12.648 C0,5.665 5.661,0 12.65,0 L327.351,0 C334.34,0 340,5.665 340,12.648 L340,202.351 C340,209.338 334.34,215.001 327.351,215.001" id="Fill-677" fill="#FBEDDC"></path>
+                        <text id="Add-new-card" font-family="LucidaGrande, Lucida Grande" font-size="18" font-weight="normal" letter-spacing="-0.216" fill="#7A7E7A">
+                            <tspan x="118.2107" y="131.455681">A</tspan>
+                            <tspan x="130.413645" y="131.455681">dd new ca</tspan>
+                            <tspan x="218.690989" y="131.455681" letter-spacing="-0.18">r</tspan>
+                            <tspan x="225.876223" y="131.455681">d</tspan>
+                        </text>
+                        <polygon id="Fill-691" fill="#7A7E7A" points="169.5 98.138 170.5 98.138 170.5 80.639 169.5 80.639"></polygon>
+                        <polygon id="Fill-692" fill="#7A7E7A" points="161.25 89.889 178.75 89.889 178.75 88.889 161.25 88.889"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

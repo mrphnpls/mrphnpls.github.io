@@ -1,0 +1,197 @@
+<HTML>
+    <head>
+        <meta charset="utf-8">
+
+        <title> US DOCTOR </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="../../dist/css/common.css">
+        <link rel="stylesheet" href="../../dist/css/lk.css">
+
+    </head>
+    <body>
+        
+        <div class="header">
+            <div class="left">
+                <div class="header__logo" onClick="location.href='../../'">
+                    <img src="../../img/logo.svg" />
+                    <br/>
+                    <a href="" class="sign-out-link">Sign Out</a>
+                </div>
+            </div>
+            <div class="right green-background">
+                <div class="header__option" onClick="location.href='../../call-a-doctor/'">
+                    <img src="../../img/call_doctor_icon.svg" />
+                    <br/>
+                    Call a doctor
+                </div>
+                <div class="header__option header__option-active" onClick="location.href='../../account/'">
+                    <img src="../../img/health_tablet_icon.svg" />
+                    <br/>
+                    My account
+                </div>
+                <div class="header__option" onClick="location.href='../../find-doctor/'">
+                    <img src="../../img/doctor_icon.svg" />
+                    <br/>
+                    Find doctor
+                </div>
+                <div class="header__option" onClick="location.href='../../history/'">
+                    <img src="../../img/history_list_icon.svg" />
+                    <br/>
+                    History
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="header-mobile-bar">
+            <img src="../../img/burger.svg" onCLick="openMobileMenu();"/>
+            <img src="../../img/back_arrow_white.svg" class="header-mobile-bar__arrow"/>
+        </div>
+        
+        <div class="header-mobile">
+            <div class="header-mobile__top">
+                <div class="header-mobile__top__back-arrow" onClick="closeMobileMenu();">
+                    <img src="../../img/back_arrow.svg" />
+                </div>
+                <div class="header-mobile__top__sign-out">
+                    <a href="" class="pink-link">Sign out</a>
+                </div>
+            </div>
+            <div class="header-mobile__menu">
+                <div class="header-mobile__menu__option" onClick="location.href='../../call-a-doctor/'">
+                    <span class="header-mobile__menu__option__c">
+                    <img class="header-mobile__menu__option__i" src="../../img/call_doctor_icon.svg" />
+                    Call a doctor
+                    </span>
+                </div>
+                <div class="header-mobile__menu__option" onClick="location.href='../../account/'">
+                    <span class="header-mobile__menu__option__c">
+                    <img class="header-mobile__menu__option__i" src="../../img/health_tablet_icon.svg" />
+                    My account
+                    </span>
+                </div>
+                <div class="header-mobile__menu__option"  onClick="location.href='../../find-doctor/'">
+                    <span class="header-mobile__menu__option__c">
+                    <img class="header-mobile__menu__option__i" src="../../img/doctor_icon.svg" />
+                    Find doctor
+                    </span>
+                </div>
+                <div class="header-mobile__menu__option" onClick="location.href='../../history/'">
+                    <span class="header-mobile__menu__option__c">
+                    <img class="header-mobile__menu__option__i" src="../../img/history_list_icon.svg" />
+                    History
+                    </span>
+                </div>
+            </div>
+            <div class="header-mobile__logo">
+                <img src="../../img/logo.svg" />
+            </div>
+            <div class="header-mobile__footer">
+                <div class="header-mobile__footer__option" onClick="location.href='tel:+1 (857) 207-39-00'">
+                    <img src="../../img/phone_icon.svg" class="footer__icon"/>
+                    +1 (857) 207-39-00
+                </div>
+                <div class="header-mobile__footer__option" onClick="location.href='mailto:info@tealmed.com'">
+                    <img src="../../img/mssg-icon.svg" class="footer__icon"/>
+                    info@tealmed.com
+                </div>
+                <div class="header-mobile__footer__option">
+                    <img src="../../img/marker-icon.svg" class="footer__icon"/>
+                    USA, New York, New York City
+                </div>
+                <div class="header-mobile__footer__option header-mobile__footer__option-1">
+                    © 2018  TealMed
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="content-block">
+            <div class="horiz-flex">
+                <div class="left">
+                   
+                </div>
+                <div class="right-column">
+                     <div class="pink-title">
+                        <img src="../../img/arrow_left.svg" class="pink-title__arrow" /> Change password
+                     </div>
+                </div>
+            </div>
+            <div class="inputs inputs-account">
+                <div class="inputs__input">
+                    <input type="password" class="inputs__input__i inputs__input__i-large" required value="An"/>
+                    <span class="inputs__input__label">Current password</span> 
+                </div>
+                <div class="inputs__input">
+                    <input type="password" class="inputs__input__i inputs__input__i-large" required value="An"/>
+                    <span class="inputs__input__label">New password</span>  
+                </div>
+                <div class="inputs__input">
+                    <input type="password" class="inputs__input__i inputs__input__i-large" required value="An"/>
+                    <span class="inputs__input__label">Repeat password</span>
+                </div>
+            </div>
+            <div class="button button-light-green button-account">
+                Save
+            </div>
+            <div class="account-links">
+                <div class="account-links__option">
+                    <a href="../../account/" class="pink-link"> General </a>
+                </div>
+                <div class="account-links__option">
+                    <a href="../billing-info/" class="pink-link"> Billing information </a>
+                </div>
+                <div class="account-links__option">
+                    <a href="../change-password/" class="pink-link"> Change password </a>
+                </div>
+                <div class="account-links__option">
+                    <a href="../history-past/" class="pink-link"> History past </a>
+                </div>
+                <div class="account-links__option">
+                    <a href="../change-phone/" class="pink-link"> Change phone </a>
+                </div>
+            </div>
+            <div class="account-links-mobile">
+                <div class="account-links-mobile__option" onClick="location.href='../../account/'">
+                    General
+                </div>
+                <div class="account-links-mobile__option" onClick="location.href='../billing-info/'">
+                    Billing information
+                </div>
+                <div class="account-links-mobile__option" onClick="location.href='../change-password/'">
+                    Change password
+                </div>
+                <div class="account-links-mobile__option" onClick="location.href='../history-past/'">
+                    History past
+                </div>
+                <div class="account-links-mobile__option" onClick="location.href='../change-phone/'">
+                    Change phone
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="footer__option">
+                <img src="../../img/phone_icon.svg" class="footer__icon"/>
+                +1 (857) 207-39-00
+            </div>
+            <div class="footer__option">
+                <img src="../../img/mssg-icon.svg" class="footer__icon"/>
+                info@tealmed.com
+            </div>
+            <div class="footer__option">
+                <img src="../../img/marker-icon.svg" class="footer__icon"/>
+                USA, New York, New York City
+            </div>
+            <div class="footer__option footer__option-right">
+                © 2018  TealMed
+            </div>
+        </div>
+        
+        <script src="../../dist/js/modal.js"></script>
+    </body>
+</HTML>

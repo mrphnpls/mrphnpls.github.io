@@ -1,0 +1,115 @@
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border:10px solid #F8EB33;
+    width: 50%; 
+    min-width: 445px;
+}
+.modal-title{
+    text-align: center;
+    margin-top:20px;
+    font-family: 'MontserratBlack';
+    font-size: 34px;
+}
+.modal-title-s{
+    margin-top:60px;
+    margin-bottom:30px;
+    
+}
+.modal-subtitle{
+    text-align: center;
+    margin-top:20px;
+    font-family: 'MontserratMedium';
+    font-size: 28px;
+    font-style:italic;
+    
+}
+.modal-subtitle-s{
+    font-size: 20px;
+     margin-top:40px;
+}
+.modal-subtitle-email{
+    margin-top:10px;
+}
+.modal-button{
+    text-align: center;
+    margin-top:40px;
+    margin-bottom:20px;
+}
+.modal-button__b{ 
+  cursor: pointer;
+  text-align: center;
+  font-family: 'MontserratBlack';
+  font-size: 22px;
+  padding:18px 35px 7px 35px;
+  color:black;
+  background-color: #F8EB33;
+  display: inline-block;
+  height: 40px;
+  position: relative;
+  min-width: 66px;
+}
+.modal-button__b:before {
+  border-bottom: 33px solid transparent;
+  border-top: 33px solid transparent;
+  border-left: 15px solid #F8EB33; 
+  content: "";
+  height: 0px;
+  top: 0;
+  position: absolute;
+  right: -42px;
+  width: 27px;
+}
+.modal-inputs{
+    font-family: 'MontserratMedium';
+    font-style: italic;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size: 14px;
+}
+.modal-inputs__input{
+    margin-top:20px;
+}
+.modal-inputs__input__i{
+    margin-top:5px;
+    padding:9px 27px 9px 27px;
+    border:1px solid #333;
+    border-radius: 20px;
+    font-family: 'MontserratMedium';
+    font-size: 16px;
+    width:300px;
+    text-align: center;
+
+}
+.modal-inputs__input__i:focus{
+    outline:0;
+}
+.email{
+    text-decoration: underline;
+    color:blue;
+
+}
+.modal-sign{
+    text-align: center;
+    margin-top:90px;
+    font-family: 'MontserratMedium';
+    font-style: italic;
+    font-size: 16px;
+    color:#797A76;
+}

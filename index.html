@@ -1,0 +1,184 @@
+<HTML>
+    <head>
+        <meta charset="utf-8">
+
+        <title> US DOCTOR </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="dist/css/common.css">
+        <link rel="stylesheet" href="dist/css/lk.css">
+
+    </head>
+    <body>
+        
+        <div class="header">
+            <div class="left">
+                <div class="header__logo">
+                    <img src="img/logo.svg" />
+                    <br/>
+                    <a href="" class="sign-out-link">Sign Out</a>
+                </div>
+            </div>
+            <div class="right green-background">
+                <div class="header__option" onClick="location.href='call-a-doctor/'">
+                    <img src="img/call_doctor_icon.svg" />
+                    <br/>
+                    Call a doctor
+                </div>
+                <div class="header__option" onClick="location.href='account/'">
+                    <img src="img/health_tablet_icon.svg" />
+                    <br/>
+                    My account
+                </div>
+                <div class="header__option" onClick="location.href='find-doctor/'">
+                    <img src="img/doctor_icon.svg" />
+                    <br/>
+                    Find doctor
+                </div>
+                <div class="header__option" onClick="location.href='history/'">
+                    <img src="img/history_list_icon.svg" />
+                    <br/>
+                    History
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="header-mobile-bar">
+            <img src="img/burger.svg" onCLick="openMobileMenu();"/>
+        </div>
+        
+        <div class="header-mobile">
+            <div class="header-mobile__top">
+                <div class="header-mobile__top__back-arrow" onClick="closeMobileMenu();">
+                    <img src="img/back_arrow.svg" />
+                </div>
+                <div class="header-mobile__top__sign-out">
+                    <a href="" class="pink-link">Sign out</a>
+                </div>
+            </div>
+            <div class="header-mobile__menu">
+                <div class="header-mobile__menu__option" onClick="location.href='call-a-doctor/'">
+                    <span class="header-mobile__menu__option__c">
+                    <img class="header-mobile__menu__option__i" src="img/call_doctor_icon.svg" />
+                    Call a doctor
+                    </span>
+                </div>
+                <div class="header-mobile__menu__option" onClick="location.href='account/'">
+                    <span class="header-mobile__menu__option__c">
+                    <img class="header-mobile__menu__option__i" src="img/health_tablet_icon.svg" />
+                    My account
+                    </span>
+                </div>
+                <div class="header-mobile__menu__option">
+                    <span class="header-mobile__menu__option__c">
+                    <img class="header-mobile__menu__option__i" src="img/doctor_icon.svg" />
+                    Find doctor
+                    </span>
+                </div>
+                <div class="header-mobile__menu__option" onClick="location.href='history/'">
+                    <span class="header-mobile__menu__option__c">
+                    <img class="header-mobile__menu__option__i" src="img/history_list_icon.svg" />
+                    History
+                    </span>
+                </div>
+            </div>
+            <div class="header-mobile__logo">
+                <img src="img/logo.svg" />
+            </div>
+            <div class="header-mobile__footer">
+                <div class="header-mobile__footer__option" onClick="location.href='tel:+1 (857) 207-39-00'">
+                    <img src="img/phone_icon.svg" class="footer__icon"/>
+                    +1 (857) 207-39-00
+                </div>
+                <div class="header-mobile__footer__option" onClick="location.href='mailto:info@tealmed.com'">
+                    <img src="img/mssg-icon.svg" class="footer__icon"/>
+                    info@tealmed.com
+                </div>
+                <div class="header-mobile__footer__option">
+                    <img src="img/marker-icon.svg" class="footer__icon"/>
+                    USA, New York, New York City
+                </div>
+                <div class="header-mobile__footer__option header-mobile__footer__option-1">
+                    © 2018  TealMed
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="content-block">
+            <div class="horiz-flex horiz-flex-1">
+                <div class="left">
+                </div>
+                <div class="right">
+                     <div class="pink-title">
+                        Hello, mr. Jhon Smith
+                    </div>
+                </div>
+            </div>
+            <div class="horiz-flex horiz-flex-wrap horiz-flex-1">
+                <div class="meeting-box">
+                    <div class="meeting-box__image">
+                        <img src="img/doctor_face-1.png"  class="meeting-box__i"/>
+                        <div class="meeting-box__name">
+                            Looking for a doctor
+                        </div>
+                    </div>
+                    <div class="meeting-box__info">
+                        <div class="meeting-box__info__name ">
+                            Meeting 1
+                        </div>
+                        <div class="meeting-box__info__date meeting-box__info__date-beige">
+                            Already goes
+                        </div>
+                    </div>
+                </div>
+                <div class="meeting-box">
+                    <div class="meeting-box__image">
+                        <img src="img/doctor_face-2.png"  class="meeting-box__i"/>
+                        <div class="meeting-box__name meeting-box__name-green-background">
+                            Dr. Mohamed Lui <br/> MD Internal Medicine
+                        </div>
+                    </div>                    <div class="meeting-box__info">
+                        <div class="meeting-box__info__name ">
+                            Meeting 2
+                        </div>
+                        <div class="meeting-box__info__date meeting-box__info__date-green">
+                            04/28/2018  18:30
+                        </div>
+                    </div>
+                </div>
+                <div class="meeting-box">
+                    <img src="img/doctor_face-1.png"  class="meeting-box__i"/>
+                    <div class="meeting-box__button">
+                        Cancel
+                    </div>
+                </div>
+            </div>
+            <div class="button-more" onClick="location.href='history/'">
+                See past meetings 
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="footer__option">
+                <img src="img/phone_icon.svg" class="footer__icon"/>
+                +1 (857) 207-39-00
+            </div>
+            <div class="footer__option">
+                <img src="img/mssg-icon.svg" class="footer__icon"/>
+                info@tealmed.com
+            </div>
+            <div class="footer__option">
+                <img src="img/marker-icon.svg" class="footer__icon"/>
+                USA, New York, New York City
+            </div>
+            <div class="footer__option footer__option-right">
+                © 2018  TealMed
+            </div>
+        </div>
+        
+        <script src="dist/js/modal.js"></script>
+    </body>
+</HTML>

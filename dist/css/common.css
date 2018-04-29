@@ -1,0 +1,84 @@
+.inputs{
+    margin-top:50px;
+}
+.inputs-2{
+    margin-top:70px;
+}
+.inputs__input{
+    display: table;
+    position: relative;
+    text-align: center;
+    margin:0 auto;
+    margin-top:25px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+.inputs__input__i:focus{
+    outline: 0;
+}
+.inputs__input__i:focus ~ .inputs__input__label,
+.inputs__input__i:not(:focus):valid ~ .inputs__input__label{
+  top: -16px;
+  bottom: 10px;
+  font-size: 12px;
+  opacity: 1;
+}
+.inputs__input__i {
+  font-size: 16px;
+  padding:0px 20px 0px 20px;
+  width: 300px;
+  height: 35px;
+  border:none;
+  border-bottom:2px solid #54B099;
+  color:#7A7E7A;
+  text-align: center;
+  background-color: transparent;
+}
+.inputs__input__i-large{
+    width:560px;
+}
+.inputs__input__label {
+  color:#54B099;    
+  position: absolute;
+  pointer-events: none;
+  left: 0px;
+  right: 0px;
+  top: 2px;
+  transition: 0.2s ease all;
+}
+.footer{
+  margin:0 auto;
+  width:90%;
+  max-width: 1400px;
+  margin-top:80px;
+  margin-bottom:40px;   
+  display: flex;
+  flex-direction: row;
+  padding:15px 20px 0px 10px;
+  border-top:2px solid #54B099;
+}
+
+.footer__option{
+  display:flex;
+  align-items:center;
+  margin:0px 10px 0px 10px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+  color:#7A7E7A;
+}
+.footer__icon{
+  margin:0px 10px 0px 0px;   
+}
+.footer__option-right{
+  margin-left:auto;
+}
+
+@media screen and (max-width: 926px) {
+    .footer{
+        display: none;
+    }
+    .inputs__input__i-large{
+        width:280px;
+    }
+    
+}
+
+

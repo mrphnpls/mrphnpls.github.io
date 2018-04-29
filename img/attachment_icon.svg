@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="24px" viewBox="0 0 23 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="US-Patient" transform="translate(-2406.000000, -4510.000000)" fill="#166C66">
+            <g id="Group-950" transform="translate(2405.000000, 747.000000)">
+                <g id="Group" transform="translate(1.000000, 3763.000000)">
+                    <polyline id="Fill-870" points="7.17 14.98 6.25 16.04 6.21 16.08 11.26 20.46 11.31 20.5 16.25 15.5 15.21 14.47 12 17.71 12 9.67 10.53 9.67 10.53 17.89 7.23 15.02 7.17 14.98"></polyline>
+                    <path d="M20.65,15.26 L20.65,20.94 C20.65,21.53 20.17,22.01 19.58,22.01 L2.55,22.01 C1.96,22.01 1.48,21.53 1.48,20.94 L1.48,15.26 L0.01,15.26 L0.01,20.94 C0.01,22.33 1.15,23.47 2.55,23.47 L19.58,23.47 C20.98,23.47 22.12,22.33 22.12,20.94 L22.12,15.26 L20.65,15.26" id="Fill-871"></path>
+                    <polyline id="Fill-872" points="6.23 2.2 15.98 2.2 15.98 12.05 17.45 12.05 17.45 0.73 4.76 0.73 4.76 12.05 6.23 12.05 6.23 2.2"></polyline>
+                    <polygon id="Fill-873" points="7.78 4.569 14.79 4.569 14.79 3.1 7.78 3.1"></polygon>
+                    <polygon id="Fill-874" points="7.78 6.739 14.79 6.739 14.79 5.27 7.78 5.27"></polygon>
+                    <polygon id="Fill-875" points="7.78 9.101 14.79 9.101 14.79 7.63 7.78 7.63"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

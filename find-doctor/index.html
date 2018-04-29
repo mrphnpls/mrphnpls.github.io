@@ -1,0 +1,355 @@
+<HTML>
+    <head>
+        <meta charset="utf-8">
+
+        <title> US DOCTOR </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="../dist/css/common.css">
+        <link rel="stylesheet" href="../dist/css/lk.css">
+
+    </head>
+    <body>
+        
+        <div class="header">
+            <div class="left">
+                <div class="header__logo" onClick="location.href='../'">
+                    <img src="../img/logo.svg" />
+                    <br/>
+                    <a href="" class="sign-out-link">Sign Out</a>
+                </div>
+            </div>
+            <div class="right green-background">
+                <div class="header__option" onClick="location.href='../call-a-doctor/'">
+                    <img src="../img/call_doctor_icon.svg" />
+                    <br/>
+                    Call a doctor
+                </div>
+                <div class="header__option" onClick="location.href='../account/'">
+                    <img src="../img/health_tablet_icon.svg" />
+                    <br/>
+                    My account
+                </div>
+                <div class="header__option header__option-active" onClick="location.href='../find-doctor/'">
+                    <img src="../img/doctor_icon.svg" />
+                    <br/>
+                    Find doctor
+                </div>
+                <div class="header__option" onClick="location.href='../history/'">
+                    <img src="../img/history_list_icon.svg" />
+                    <br/>
+                    History
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <div class="header-mobile-bar">
+            <img src="../img/burger.svg" onCLick="openMobileMenu();"/>
+            <img src="../img/back_arrow_white.svg" class="header-mobile-bar__arrow"/>
+        </div>
+        
+        <div class="header-mobile">
+            <div class="header-mobile__top">
+                <div class="header-mobile__top__back-arrow" onClick="closeMobileMenu();">
+                    <img src="../img/back_arrow.svg" />
+                </div>
+                <div class="header-mobile__top__sign-out">
+                    <a href="" class="pink-link">Sign out</a>
+                </div>
+            </div>
+            <div class="header-mobile__menu">
+                <div class="header-mobile__menu__option" onClick="location.href='../call-a-doctor/'">
+                    <span class="header-mobile__menu__option__c">
+                    <img class="header-mobile__menu__option__i" src="../img/call_doctor_icon.svg" />
+                    Call a doctor
+                    </span>
+                </div>
+                <div class="header-mobile__menu__option" onClick="location.href='../account/'">
+                    <span class="header-mobile__menu__option__c">
+                    <img class="header-mobile__menu__option__i" src="../img/health_tablet_icon.svg" />
+                    My account
+                    </span>
+                </div>
+                <div class="header-mobile__menu__option" onClick="location.href='../find-doctor/'">
+                    <span class="header-mobile__menu__option__c">
+                    <img class="header-mobile__menu__option__i" src="../img/doctor_icon.svg" />
+                    Find doctor
+                    </span>
+                </div>
+                <div class="header-mobile__menu__option" onClick="location.href='../history/'">
+                    <span class="header-mobile__menu__option__c">
+                    <img class="header-mobile__menu__option__i" src="../img/history_list_icon.svg" />
+                    History
+                    </span>
+                </div>
+            </div>
+            <div class="header-mobile__logo">
+                <img src="../img/logo.svg" />
+            </div>
+            <div class="header-mobile__footer">
+                <div class="header-mobile__footer__option" onClick="location.href='tel:+1 (857) 207-39-00'">
+                    <img src="../img/phone_icon.svg" class="footer__icon"/>
+                    +1 (857) 207-39-00
+                </div>
+                <div class="header-mobile__footer__option" onClick="location.href='mailto:info@tealmed.com'">
+                    <img src="../img/mssg-icon.svg" class="footer__icon"/>
+                    info@tealmed.com
+                </div>
+                <div class="header-mobile__footer__option">
+                    <img src="../img/marker-icon.svg" class="footer__icon"/>
+                    USA, New York, New York City
+                </div>
+                <div class="header-mobile__footer__option header-mobile__footer__option-1">
+                    © 2018  TealMed
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="content-block">
+            <div class="horiz-flex">
+                <div class="left">
+                    <div class="find-doctor-search">
+                            <div class="inputs__input inputs__input-search">
+                                <span class="inputs__input__label inputs__input__label-seacrh">Speciality</span>
+                                <div class="menu__sort__select custom-select">
+                                    <select>
+                                        <option value="0">Select someone</option>
+                                        <option value="1">Allergologist</option>
+                                        <option value="2">Anatomist</option>
+                                        <option value="3">Hematologist</option>
+                                        <option value="4">Palliative care physician</option>
+                                        <option value="5">Nuclear medicine physician</option>
+                                        <option value="6">Obstetrician</option>
+                                        <option value="7">Euthanasia doctor</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="inputs__input inputs__input-search">
+                                <span class="inputs__input__label inputs__input__label-seacrh">Confirm Address</span>
+                                <textarea class="inputs__input__textarea"> </textarea>
+                            </div>
+                            <div class="inputs__input inputs__input-search">
+                                <span class="inputs__input__label inputs__input__label-seacrh">Date and Time of appointment</span>
+                                <div class="menu__sort__select custom-select">
+                                    <select>
+                                        <option value="0">Select someone</option>
+                                        <option value="1">Today 16:00</option>
+                                        <option value="2">Today 17:05</option>
+                                        <option value="3">Tomorrow 12:15</option>
+                                        <option value="4">Tomorrow 16:15</option>
+                                        <option value="5">Tomorrow 19:30</option>
+                                        <option value="6">01.05.2018 08:00</option>
+                                        <option value="7">01.05.2018 11:40</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="button button-pink doctor-find-search__button">
+                                Search
+                            </div>
+                    </div>
+                </div>
+                <div class="right-column">
+                    <div class="horiz-flex right-flex-end">
+                         <div class="pink-title">
+                            <img src="../img/arrow_left.svg" class="pink-title__arrow" /> Find doctor
+                        </div>
+                        <div class="sorting">
+                            Sort by: <span class="sorting__option sorting__option-active"> Distance</span> <span class="sorting__option"> Name</span> <span class="sorting__option"> Rating</span>
+                        </div>
+                    </div>
+                    <div class="find-doctor-search-mobile">
+                            <div class="find-doctor-search">
+                                    <div class="inputs__input inputs__input-search">
+                                        <span class="inputs__input__label inputs__input__label-seacrh">Speciality</span>
+                                        <div class="menu__sort__select custom-select">
+                                            <select>
+                                                <option value="0">Select someone</option>
+                                                <option value="1">Allergologist</option>
+                                                <option value="2">Anatomist</option>
+                                                <option value="3">Hematologist</option>
+                                                <option value="4">Palliative care physician</option>
+                                                <option value="5">Nuclear medicine physician</option>
+                                                <option value="6">Obstetrician</option>
+                                                <option value="7">Euthanasia doctor</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="inputs__input inputs__input-search">
+                                        <span class="inputs__input__label inputs__input__label-seacrh">Confirm Address</span>
+                                        <textarea class="inputs__input__textarea"> </textarea>
+                                    </div>
+                                    <div class="inputs__input inputs__input-search">
+                                        <span class="inputs__input__label inputs__input__label-seacrh">Date and Time of appointment</span>
+                                        <div class="menu__sort__select custom-select">
+                                            <select>
+                                                <option value="0">Select someone</option>
+                                                <option value="1">Today 16:00</option>
+                                                <option value="2">Today 17:05</option>
+                                                <option value="3">Tomorrow 12:15</option>
+                                                <option value="4">Tomorrow 16:15</option>
+                                                <option value="5">Tomorrow 19:30</option>
+                                                <option value="6">01.05.2018 08:00</option>
+                                                <option value="7">01.05.2018 11:40</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="button button-pink doctor-find-search__button">
+                                        Search
+                                    </div>
+                            </div>
+                        </div>
+                    <div class="sorting-mobile">
+                            <div class="menu__sort__select custom-select">
+                                <select>
+                                    <option value="0">Sort by</option>
+                                    <option value="1">Distance</option>
+                                    <option value="2">Name</option>
+                                    <option value="3">Rating</option>
+                                </select>
+                            </div>
+                        
+                        </div>
+                    <div class="find-doctor-cards">
+                        <div class="find-doctor-cards__card">
+                            <div class="find-doctor-cards__card__reviews find-doctor-cards__card__reviews-green">
+                                <div class="horiz-flex horiz-flex-wrap-2">
+                                    <img src="../img/Star_white.svg" class="meeting-info__comments__comment__author__rating__star meeting-info__comments__comment__author__rating__star-active" />
+                                    <img src="../img/Star_white.svg" class="meeting-info__comments__comment__author__rating__star meeting-info__comments__comment__author__rating__star-active" />
+                                    <img src="../img/Star_white.svg" class="meeting-info__comments__comment__author__rating__star meeting-info__comments__comment__author__rating__star-active" />
+                                    <img src="../img/Star_white.svg" class="meeting-info__comments__comment__author__rating__star meeting-info__comments__comment__author__rating__star-active" />
+                                    <img src="../img/Star_white.svg" class="meeting-info__comments__comment__author__rating__star meeting-info__comments__comment__author__rating__star-active" />
+                                </div>
+                                <div class="horiz-flex horiz-flex-2 find-doctor-cards__card__reviews__text">
+                                    12 reviews
+                                </div>
+                            </div>
+                            <div class="find-doctor-cards__card-no-wrap">
+                                <div class="find-doctor-cards__card__image">
+                                    <img class="find-doctor-cards__card__image__i" src="../img/doctor_face-3.png" />
+                                </div>
+                                <div class="find-doctor-cards__card__info">
+                                    <div class="find-doctor-cards__card__info__name">
+                                        <a href="../doctor/" class="pink-link">Dr. Mohamed Lui</a>
+                                    </div>
+                                    <div class="find-doctor-cards__card__info__position">
+                                        MD Internal Medicine
+                                    </div>
+                                    <div class="find-doctor-cards__card__info__availability">
+                                        Nearest Availability  Sun, 29 of March  11:00AM
+                                    </div>
+                                    <div class="find-doctor-cards__card__info__button">
+                                        Call doctor
+                                    </div>
+                                    <div class="find-doctor-cards__card__info__button-mobile">
+                                        <img src="../img/phone_call_icon.svg" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="find-doctor-cards__card">
+                            <div class="find-doctor-cards__card__reviews find-doctor-cards__card__reviews-light-green">
+                                <div class="horiz-flex horiz-flex-wrap-2">
+                                    <img src="../img/Star_white.svg" class="meeting-info__comments__comment__author__rating__star meeting-info__comments__comment__author__rating__star-active" />
+                                    <img src="../img/Star_white.svg" class="meeting-info__comments__comment__author__rating__star meeting-info__comments__comment__author__rating__star-active" />
+                                    <img src="../img/Star_white.svg" class="meeting-info__comments__comment__author__rating__star meeting-info__comments__comment__author__rating__star-active" />
+                                    <img src="../img/Star_white.svg" class="meeting-info__comments__comment__author__rating__star meeting-info__comments__comment__author__rating__star-active" />
+                                    <img src="../img/Star_white.svg" class="meeting-info__comments__comment__author__rating__star" />
+                                </div>
+                                <div class="horiz-flex horiz-flex-2 find-doctor-cards__card__reviews__text">
+                                    12 reviews
+                                </div>
+                            </div>
+                            <div class="find-doctor-cards__card-no-wrap">
+                                <div class="find-doctor-cards__card__image">
+                                    <img class="find-doctor-cards__card__image__i" src="../img/doctor_face-3.png" />
+                                </div>
+                                <div class="find-doctor-cards__card__info">
+                                    <div class="find-doctor-cards__card__info__name">
+                                        <a href="../doctor/" class="pink-link">Dr. Mohamed Lui</a>
+                                    </div>
+                                    <div class="find-doctor-cards__card__info__position">
+                                        MD Internal Medicine
+                                    </div>
+                                    <div class="find-doctor-cards__card__info__availability">
+                                        Nearest Availability  Sun, 29 of March  11:00AM
+                                    </div>
+                                    <div class="find-doctor-cards__card__info__button">
+                                        Call doctor
+                                    </div>
+                                    <div class="find-doctor-cards__card__info__button-mobile">
+                                        <img src="../img/phone_call_icon.svg" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="find-doctor-cards__card">
+                            <div class="find-doctor-cards__card__reviews find-doctor-cards__card__reviews-beige">
+                                <div class="horiz-flex horiz-flex-wrap-2">
+                                    <img src="../img/Star_white.svg" class="meeting-info__comments__comment__author__rating__star meeting-info__comments__comment__author__rating__star-active" />
+                                    <img src="../img/Star_white.svg" class="meeting-info__comments__comment__author__rating__star meeting-info__comments__comment__author__rating__star-active" />
+                                    <img src="../img/Star_white.svg" class="meeting-info__comments__comment__author__rating__star meeting-info__comments__comment__author__rating__star-active" />
+                                    <img src="../img/Star_white.svg" class="meeting-info__comments__comment__author__rating__star" />
+                                    <img src="../img/Star_white.svg" class="meeting-info__comments__comment__author__rating__star" />
+                                </div>
+                                <div class="horiz-flex horiz-flex-2 find-doctor-cards__card__reviews__text">
+                                    12 reviews
+                                </div>
+                            </div>
+                            <div class="find-doctor-cards__card-no-wrap">
+                                <div class="find-doctor-cards__card__image">
+                                    <img class="find-doctor-cards__card__image__i" src="../img/doctor_face-3.png" />
+                                </div>
+                                <div class="find-doctor-cards__card__info">
+                                    <div class="find-doctor-cards__card__info__name">
+                                        <a href="../doctor/" class="pink-link">Dr. Mohamed Lui</a>
+                                    </div>
+                                    <div class="find-doctor-cards__card__info__position">
+                                        MD Internal Medicine
+                                    </div>
+                                    <div class="find-doctor-cards__card__info__availability">
+                                        Nearest Availability  Sun, 29 of March  11:00AM
+                                    </div>
+                                    <div class="find-doctor-cards__card__info__button">
+                                        Call doctor
+                                    </div>
+                                    <div class="find-doctor-cards__card__info__button-mobile">
+                                        <img src="../img/phone_call_icon.svg" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        <div class="footer">
+            <div class="footer__option">
+                <img src="../img/phone_icon.svg" class="footer__icon"/>
+                +1 (857) 207-39-00
+            </div>
+            <div class="footer__option">
+                <img src="../img/mssg-icon.svg" class="footer__icon"/>
+                info@tealmed.com
+            </div>
+            <div class="footer__option">
+                <img src="../img/marker-icon.svg" class="footer__icon"/>
+                USA, New York, New York City
+            </div>
+            <div class="footer__option footer__option-right">
+                © 2018  TealMed
+            </div>
+        </div>
+        
+        <script src="../dist/js/select.js"></script>
+        <script src="../dist/js/modal.js"></script>
+    </body>
+</HTML>

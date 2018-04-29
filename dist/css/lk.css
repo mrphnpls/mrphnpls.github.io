@@ -1,0 +1,1184 @@
+html,body{
+    margin:0px;
+}
+.header{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 12px;
+    
+}
+.header-mobile{
+    z-index: 1999;
+   position: fixed;
+   top:0px; right:0px; bottom:0px; left:0px;
+   width:100%;
+   height:100%;
+   background-color: white;    
+    
+    display: none;
+    
+    overflow-y: auto;
+}
+.header__logo{
+    cursor: pointer;
+    text-align: right;
+    padding:20px 65px 20px 40px;
+}
+.header__option{
+    padding:20px 40px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color:white;
+    cursor:pointer;
+}
+.header__option-active{
+    background-color: #1E8982;
+}
+.header__option:hover{
+    background-color: #1E8982;
+}
+.header-mobile-bar{
+    z-index: 999;
+    background-color:#176C66;
+    padding:20px;
+    position: fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    
+    display: flex;
+    flex-direction: row;
+    
+    display: none;
+}
+.header-mobile__top{
+    display: flex;
+    flex-direction: row;
+    padding:20px;
+}
+.header-mobile__top__sign-out{
+    margin-left:auto;
+}
+.header-mobile__menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.header-mobile__menu__option{
+    background-color: #1E8982;
+    max-width: 50%;
+    min-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-mobile__menu__option__c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 12px;
+    color:white;
+}
+.header-mobile__menu__option__i{
+    margin-bottom:6px;
+}
+.header-mobile__logo{
+    text-align: center;
+    padding:40px;
+}
+.header-mobile__footer{
+    margin:0px 20px 20px 20px;
+    padding:20px 10px 0px 10px;
+    border-top:2px solid #3F8F8D;
+}
+.header-mobile__footer__option{
+    margin-top:10px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    color:#7A7E7A;
+    font-size: 14px;
+
+}
+.header-mobile__footer__option-1{
+    margin-top:30px;
+}
+.sign-out-link{
+  color:#54B099;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+  font-size: 12px;
+  margin-right:32px;
+}
+.left{
+    width:35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+.right{
+    width:65%;
+    display: flex;
+    flex-direction: row;
+}
+.right-flex-end{
+    align-items: flex-end;
+
+}
+.right-column{
+    width:65%;
+    display: flex;
+    flex-direction: column;
+}
+.green-background{
+    background-color: #176D67;
+}
+.content-block{
+    margin:0 auto;
+    margin-top:60px;
+    margin-bottom:30px;
+    max-width: 1700px;
+}
+.sorting{
+    margin-left:auto;
+    margin-right:65px;
+    color:#54B099;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 12px;
+    margin-bottom:3px;
+}
+.sorting-mobile{
+    display: none;
+    width:140px;
+    margin-left:auto;
+}
+@media screen and (min-width: 1400px) {
+    .sorting{
+        margin-right:165px;
+    }
+}
+@media screen and (min-width: 1500px) {
+    .sorting{
+        margin-right:265px;
+    }
+}
+@media screen and (min-width: 1600px) {
+    .sorting{
+        margin-right:285px;
+    }
+}
+.sorting__option{
+    color:#176C66;
+    margin-left:10px;
+    margin-right:10px;
+    cursor:pointer;
+    border-bottom:1px solid #176C66;
+
+}
+.sorting__option-active{
+    color:#EDC59B;
+    border-bottom:1px solid transparent;
+}
+.pink-title{
+    display: table;
+    margin-top:20px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color:#E15874;
+}
+.pink-title__arrow{
+    margin-left:-50px;
+    margin-right:10px;
+    cursor:pointer;
+}
+.horiz-flex{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.horiz-flex-wrap{
+    flex-wrap: wrap;
+    margin-top:40px;
+}
+.horiz-flex-wrap-2{
+    flex-wrap: wrap;
+    width:60%;
+}
+.horiz-flex-1{
+    margin-top:60px;
+}
+.horiz-flex-2{
+    margin-top:8px;
+}
+.meeting-box{
+    min-width: 275px;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    max-width: 365px;
+    margin:10px;
+    position: relative;
+    
+}
+.meeting-box__image{
+    position: relative;
+}
+.meeting-box__name{
+    position: absolute;
+    bottom:0px;
+    right:0px;
+    left:0px;
+    padding:30px 0px 30px 0px;
+    text-align: center;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    color:white;
+    line-height: 24px;
+}
+
+.meeting-box__i{
+    max-width: 100%;
+}
+.meeting-box__button{
+    background-color: #E15874;
+    border:2px solid #E15874;
+    margin-top:2px;
+    color:white;
+    text-align: center;
+    padding:13px;
+    cursor: pointer;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-weight: bold;
+
+}
+.meeting-box__button:hover{
+    background-color: white;
+    color: #E15874;
+}
+.meeting-box__info{
+    display: flex;
+    flex-direction: row;
+    margin-top:2px;
+    color:white;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 14px;
+}
+.meeting-box__info__name{
+    background-color: #176D67;
+    width:60%;
+    padding:15px;
+    font-size: 14px;
+
+}
+.meeting-box__info__date{
+    width:40%;
+    padding:15px;
+    font-size: 14px;
+
+} 
+.meeting-box__info__date-beige{
+    background-color: #EDC59B;
+}
+.meeting-box__info__date-green{
+    background-color: #54B099;
+}
+.button-more{
+    margin:0 auto;
+    display: table;
+    margin-top:60px;
+    border:2px solid #54B099;
+    color:#54B099;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding:14px 27px 14px 27px;
+    cursor: pointer;
+}
+.button-more-align-left{
+    margin: inherit;
+    margin-right:auto;
+    margin-top:60px;
+}
+.button-more:hover{
+    background-color: #54B099;
+    color:white;
+}
+.meeting-info__date{
+    margin-top:40px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 14px;
+    color:#54B099;
+}
+.meeting-info__specialty{
+    margin-top:40px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 14px;
+    color:#54B099;
+}
+.meeting-info__time, .meeting-info__report, .meeting-info__availability, .meeting-info__info{
+    margin-top:20px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 14px;
+    color:#54B099;
+}
+.meeting-info__date__value, .meeting-info__time__value, .meeting-info__report__value, .meeting-info__availability__value, .meeting-info__specialty__value, .meeting-info__info__value{
+    color:#7A7E7A;
+}
+.meeting-info__report__value, .meeting-info__info__value{
+    display: block;
+    margin-top:3px;   
+    max-width: 720px;
+}
+.pink-link{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 14px;
+    color:#E15874;
+    margin-left:10px;
+    margin-right:10px;
+}
+.meeting-info__additionals{
+    margin-top:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    max-width: 720px;
+}
+.meeting-info__attachments{
+    margin-top:20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.meeting-info__attachments__attachment{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:10px;
+}
+
+.doctor-card{
+    margin-right:40px;
+    margin-top:95px;
+}
+.doctor-card__image__i{
+    max-width: 100%;
+}
+.doctor-card__image{
+    max-width: 180px;
+}
+.doctor-card__name, .doctor-card__position{
+    margin-top:6px;
+    text-align: center;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 14px;
+}
+.doctor-card__name{
+    margin-top:17px;
+}
+.doctor-card__position{
+    color:#176C66;
+}
+.doctor-card__button{
+    margin-top:10px;
+    text-align: center;
+}
+.meeting-info__rating{
+    width:220px;
+    margin-top:40px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+}
+.meeting-info__rating__star{
+    opacity: 0.4;
+    margin:10px;
+    cursor: pointer;
+}
+.meeting-info__rating:hover *{
+    opacity: 1.0;
+}
+.meeting-info__rating__star:hover ~.meeting-info__rating__star{
+    opacity: 0.4;
+}
+.meeting-info__rating__star-active{
+    opacity: 1.0;
+}
+.meeting-info__textarea{
+    margin-top:20px;
+}
+.meeting-info__textarea__t{
+    background-color:#FDFCFA;
+    border:2px solid #54B099;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 14px;
+    color:#7A7E7A;
+    width: 720px;
+    height:160px;
+    resize: none;
+    padding:20px;
+}
+.meeting-info__textarea__t:focus{
+    outline: 0;   
+}
+.button{
+    padding:17px 54px 17px 54px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 18px;
+    font-weight: 18px;
+    cursor: pointer;
+    margin-right:20px;
+}
+.button-call-a-doctor{
+    margin:0 auto;
+    margin-top:50px;
+    display: table;
+    padding:17px 74px 17px 74px;
+}
+.button-account{
+    margin:0 auto;
+    margin-top:80px;
+    display: table;
+    padding:17px 74px 17px 74px;
+}
+.meeting-info__buttons{
+    margin-top:20px;
+    display: flex;
+    flex-direction: row;
+}
+.button-pink{
+    color:white;
+    background-color: #E15874;
+    border:2px solid #E15874;
+}
+.button-under-doctor-photo{
+    margin:0 auto;
+    padding:17px 24px 17px 24px;
+    font-size: 16px;
+}
+.button-green{
+    color:#176C66;
+    border:2px solid #176C66;
+}
+.button-green:hover{
+    color:white;
+    background-color: #176C66;
+}
+.button-light-green{
+    color:white;
+    background-color: #54B099;
+    border:2px solid #54B099;
+}
+.meeting-info__comments{
+    margin-top:40px;
+    border-top:2px solid #EDC59B;
+    max-width: 720px;
+
+}
+.meeting-info__comments__comment{
+    padding:30px 0px 10px 0px;
+    border-bottom:2px solid #EDC59B;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 14px;
+}
+.meeting-info__comments__comment__author__name{
+    font-size: 18px;
+    font-weight: bold;
+}
+.meeting-info__comments__comment__author__name-green{
+    color:#54B099;
+
+}
+.meeting-info__comments__comment__author__name-beige{
+    color:#EDC59B;
+
+}
+.meeting-info__comments__comment__author{
+    display: flex;
+    flex-direction: row;
+}
+.meeting-info__comments__comment__author__rating{
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top:-5px;
+}
+.meeting-info__comments__comment__author__rating__star{
+    opacity: 0.4;
+    margin:3px;
+    max-width: 16px;
+}
+.meeting-info__comments__comment__author__rating__star-active{
+    opacity: 1.0;
+}
+.meeting-info__comments__comment__text{
+    margin-top:10px;
+    
+    color:#7A7E7A;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 14px;
+}
+.meeting-info__comments__comment__date{
+    margin-top:10px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+    color:#ADB0AC;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 14px;
+}
+.find-doctor-cards{
+    margin-top:40px;
+    max-width: 720px;
+}
+.find-doctor-cards-small{
+    max-width: 560px;
+    margin: 40px 10px 0px 10px;
+}
+.find-doctor-cards__card{
+    margin-top:15px;
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    background-color: #CAE6DA;
+
+}
+.find-doctor-cards__card-no-wrap{
+    width:100%;
+    display: flex;
+    flex-direction: row;    
+}
+.find-doctor-cards__card-small{
+    width:560px;
+    margin: 15px 10px 0px 10px;
+}
+.find-doctor-cards__card__reviews{
+    width:120px;
+    min-width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.find-doctor-cards__card__reviews-green{
+    background-color: #176C66;
+}
+.find-doctor-cards__card__date-green{
+    background-color: #176C66;
+}
+.find-doctor-cards__card__date{
+    width:120px;
+    min-width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.find-doctor-cards__card__reviews-light-green{
+    background-color: #54B099;
+}
+.find-doctor-cards__card__reviews-beige{
+    background-color: #EDC59B;
+}
+.find-doctor-cards__card__reviews__text{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 12px;
+    color:white;
+}
+.find-doctor-cards__card__date__time{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+}
+.find-doctor-cards__card__date__text{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 18px;
+    color:white;
+    text-align: center;
+}
+.find-doctor-cards__card__image{
+    width:140px;
+    min-width: 140px;
+}
+.find-doctor-cards__card__image__i{
+    max-width: 100%;
+}
+.find-doctor-cards__card__info{
+    width:100%;
+    
+    padding:10px;
+    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.find-doctor-cards__card__info__name{
+    margin-top:10px;
+}
+.find-doctor-cards__card__info__position{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:5px;
+    color:#176C66;
+}
+.find-doctor-cards__card__info__availability{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 14px;
+    margin-top:auto;
+    margin-left:10px;
+    margin-bottom:10px;
+    color:#176C66;
+
+}
+.find-doctor-cards__card__info__button{
+    position: absolute;
+    top:20px;
+    right:20px;
+    border:2px solid #176C66;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-weight: bold;
+    padding:12px 23px 12px 23px;
+    color:#176C66;
+    cursor: pointer;
+}
+.find-doctor-cards__card__info__button-mobile{
+    position: absolute;
+    bottom:20px;
+    right:20px;
+    
+    cursor: pointer;
+}
+.find-doctor-cards__card__info__button:hover{
+    color:#CAE6DA;
+    background-color: #176C66;
+}
+.find-doctor-search{
+    max-width: 280px;
+    min-width: 280px;
+    display: table;
+    margin-top: 105px;
+    margin-right:15px;
+    background-color:#CAE6DA;
+    padding:10px 10px 20px 10px;
+}
+
+.custom-select {
+  position: relative;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    color:black;
+}
+.custom-select select {
+  display: none; 
+}
+.select-selected {
+  background-color: transparent;
+  color:#54B099!important;
+
+}
+
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 17px;
+  right: 17px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: black transparent transparent transparent;
+}
+
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent black transparent;
+  top: 10px;
+}
+.select-items div,.select-selected {
+    color:white;
+  padding: 8px 16px;
+  border-bottom: 2px solid #54B099;
+  cursor: pointer;
+  user-select: none;
+}
+.select-items {
+  text-align: center;
+  position: absolute;
+  background-color: #54B099;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+.select-hide {
+  display: none;
+}
+.select-items div:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.inputs__input__label-seacrh{
+    top:-15px;
+    font-size: 12px;
+}
+.inputs-call-a-doctor{
+    margin-top:60px;
+}
+.inputs-account{
+    margin-top:80px;
+}
+.inputs__input-search, .inputs__input-account{
+    display: block;
+    max-width: 540px;
+}
+.inputs__input__textarea{
+    width:100%;
+    margin-top:10px;
+    background-color:#FDFCFA;
+    border:2px solid #54B099;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 14px;
+    color:#7A7E7A;
+    height:70px;
+    resize: none;
+    padding:10px;
+}
+.inputs__input__textarea:focus{
+    outline: 0;   
+}
+.doctor-find-search__button{
+    margin-top:40px;
+    margin-left:20px;
+    text-align: center;
+}
+.find-doctor-cards__card__info__details-button{
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:10px;
+    display: table;
+    border:2px solid #176C66;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding:12px 13px 12px 13px;
+    color:#176C66;
+    cursor: pointer;
+    text-align: center;
+}
+.find-doctor-cards__card__info__details-button:hover{
+    background-color: #176C66;
+    color:#CAE6DA;
+    cursor: pointer;
+}
+
+.account-phone{
+    margin-top:40px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 14px;
+    color:#54B099;
+}
+.account-email{
+    margin-top:20px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 14px;
+    color:#54B099;
+}
+.account-phone__value, .account-email__value{
+    margin-left:20px;
+    color:#7A7E7A;
+}
+.account-links{
+    margin-top:60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.account-links-mobile{
+    margin-top:60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.account-links-mobile__option{
+    width:250px;
+    color:white;
+    margin-top:10px;
+    background-color: #176C66;
+    padding:14px 27px 14px 27px;
+    text-align: center;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-weight: bold;
+}
+.billing-cards{
+    margin-top:40px;
+}
+.billing-card{
+    cursor: pointer;
+    margin:20px;
+}
+.credit-card{
+    margin-top:60px;
+}
+.credit-card__img{
+    margin-right:15px;
+}
+.credit-card__info{
+    margin-left:15px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.credit-card__info__address{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 14px;
+    color:#54B099;
+    min-width:110px;
+}
+
+.credit-card__info__address-value{
+    color:#7A7E7A;
+    margin-left:20px;
+    
+}
+.credit-card__info__horiz{
+    display: flex;
+    flex-direction: row;
+    margin-top:20px;
+}
+
+.credit-card__button{
+    margin-top:auto;
+    margin-bottom:20px;
+}
+.button-credit-card{
+    display: table;
+}
+.inputs-credit-card{
+    margin-top:0px;
+}
+
+.button-save-credit-card{
+    display: table;
+    margin: 0 auto;
+    margin-top:40px;
+}
+.credit-card__img__remove-btn{
+    margin-top:10px;
+}
+.history-past__menu{
+    margin-top:65px;
+    margin-right:20px;
+}
+.history-past__menu__option{
+    color:#176C66;
+    padding-right:20px;
+    border:1px solid transparent;
+    margin-top:10px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+.history-past__menu__option-active{
+    color:#EDC59B;
+    border-bottom:1px solid #EDC59B;
+}
+
+.info-block-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 720px;
+}
+.info-block{
+    margin:30px 30px 30px 0px;
+    max-width: 330px;
+    min-width: 330px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    color:#7A7E7A;
+}
+.info-block__question{
+    font-weight: bold;
+}
+.info-block__answers{
+    margin-top:15px;
+}
+.info-block__answers__answer{
+    margin-right:20px;
+    position: relative;
+}
+
+
+.info-block__answers__answer__label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+}
+
+.info-block__answers__answer__label:hover input ~ .checkmark {
+    background-color: #54B099;
+}
+
+.info-block__answers__answer__label input:checked ~ .checkmark {
+    background-color: #54B099;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.info-block__answers__answer__label input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.info-block__answers__answer__label .checkmark:after {
+    left: 9px;
+    top: -2px;
+    width: 6px;
+    height: 12px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.info-block__answers__answer__label{
+    margin-left:30px;
+}
+
+.info-block-section{
+    margin-top:30px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    color:#54B099;
+    font-size: 12px;
+    padding-bottom:15px;
+    border-bottom:1px solid #EDC59B;
+    max-width: 720px;
+}
+
+
+.info-block__buttons{
+    margin-top:40px;
+    margin-bottom:50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.mobile-history-past-menu{
+    margin-top:25px;
+    
+    display: flex;
+    flex-direction: row;
+    border-bottom:1px solid #EDC59B;
+    padding-bottom:10px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+
+    justify-content: space-between;
+    font-size: 12px;
+    
+    display: none;
+}
+.mobile-history-past-menu__option{
+    color:#176D67;
+    
+}
+.mobile-history-past-menu__option-active{
+    color:#EDC59B;
+}
+
+.header-mobile-bar__arrow{
+    margin-left:auto;
+}
+
+.find-doctor-search-mobile{
+    display: none;
+}
+@media screen and (max-width: 926px) {
+    .header{
+        display: none;
+    }
+    .header-mobile-bar{
+        display: flex;
+    }
+    .left{
+        display: none;
+    }
+    .right{
+        width:100%;
+        margin:30px 20px 0px 20px;
+        --justify-content: center;
+    }
+    .right-column{
+        width:70%;
+        margin:30px 20px 0px 50px;
+        justify-content: center;
+    }
+    .meeting-box__name-green-background{
+        background-color: #54B099;
+
+    }
+    .inputs__input-search, .inputs__input-account {
+        width:280px;
+    }
+    .account-links{
+        display: none;
+    }
+    .account-links-mobile{
+        display: flex;
+    }
+    .info-block__buttons{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .button{
+        margin-bottom:20px;
+        
+    }
+    .info-block__buttons{
+        margin-bottom:10px;
+    }
+    .mobile-history-past-menu{
+        display: flex;
+    }
+    .meeting-info__textarea__t{
+        width:90%;
+    }
+    .find-doctor-search-mobile{
+        display: block;
+    }
+    .find-doctor-search{
+        max-width: none;
+        width: 100%;   
+        padding:0px;
+        margin:0 auto;
+        margin-top:40px;
+        margin-bottom:40px;
+    }
+    .button.doctor-find-search__button{
+        width: auto;
+    }
+    .find-doctor-cards{
+        margin-top:30px;
+    }
+    .find-doctor-cards__card__reviews__text{
+        display: none;
+    }
+    .horiz-flex-wrap-2{
+        flex-wrap: wrap;
+        width:100%;
+    }
+    .find-doctor-cards__card__reviews{
+        width:120px;
+    }   
+    .pink-title__arrow{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .sorting{
+        display: none;
+    }
+    .sorting-mobile{
+        display: block;
+    }
+}
+@media screen and (max-width: 526px) {
+    .info-block{
+        min-width: 270px;
+    }
+    .right-column{
+        width:100%;
+       margin:30px 20px 0px 20px; 
+    }
+    .button{
+        padding:12px 18px 12px 18px;
+        text-align: center;
+        width:100%;
+    }
+    .button-account, .button-call-a-doctor{
+        width:70%;    
+    }
+    .find-doctor-cards__card{
+        flex-wrap: wrap;
+    }
+    .find-doctor-cards__card__date{
+        width:100%;
+    }
+    .find-doctor-cards__card__date{
+        flex-direction: row;
+    }
+    .find-doctor-cards__card__date__time, .find-doctor-cards__card__date__text{
+        display: table;
+    }
+    .find-doctor-cards__card__date{
+        align-items: center;
+        justify-content: flex-end;
+        padding-bottom:7px;
+        padding-right: 12px;
+    }
+    .horiz-flex.find-doctor-cards__card__date__time{
+        width:0px;
+        margin-right: 10px;
+        display: table;
+    }
+    .horiz-flex.find-doctor-cards__card__date__text{
+        width:0px;
+        display: table;
+    }
+    .find-doctor-cards__card__info__details-button{
+        margin-top: 5px;
+        
+        padding: 10px 5px 10px 5px;
+        font-size: 14px;
+    }
+    .find-doctor-cards__card__info{
+        padding:5px;
+        margin-top:-10px;
+    }
+    .find-doctor-cards__card__image{
+        width:120px;
+        min-width: 120px;
+    }
+    .find-doctor-cards__card__info__availability{
+        width:79%;
+    }
+    .find-doctor-cards__card__info__button{
+        display: none;
+    }
+    .find-doctor-cards__card__info__button-mobile{
+        display: block;
+    }
+    .horiz-flex{
+        justify-content: flex-start;
+    }
+}
+
+
+
+
+
+
+
