@@ -659,6 +659,8 @@ html,body{
     right:20px;
     
     cursor: pointer;
+    
+    display: none;
 }
 .find-doctor-cards__card__info__button:hover{
     color:#CAE6DA;
