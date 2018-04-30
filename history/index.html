@@ -47,7 +47,7 @@
         
         <div class="header-mobile-bar">
             <img src="../img/burger.svg" onCLick="openMobileMenu();"/>
-            <img src="../img/back_arrow_white.svg" class="header-mobile-bar__arrow"/>
+            <img onClick="backHistory();" src="../img/back_arrow_white.svg" class="header-mobile-bar__arrow"/>
         </div>
         
         <div class="header-mobile">
@@ -115,7 +115,7 @@
                 </div>
                 <div class="right right-flex-end">
                      <div class="pink-title">
-                        <img src="../img/arrow_left.svg" class="pink-title__arrow" /> History
+                        <img onClick="backHistory();" src="../img/arrow_left.svg" class="pink-title__arrow" /> History
                     </div>
                     <div class="sorting">
                         Sort by: <span class="sorting__option sorting__option-active"> Distance</span> <span class="sorting__option"> Name</span> <span class="sorting__option"> Rating</span>
@@ -158,7 +158,7 @@
                                     <div class="find-doctor-cards__card__info__position">
                                         MD Internal Medicine
                                     </div>
-                                    <div class="find-doctor-cards__card__info__details-button" onClick="window.open('../meeting/');">
+                                    <div class="find-doctor-cards__card__info__details-button" onClick="location.href='../meeting/'">
                                         See appointment details
                                     </div>
 
@@ -185,7 +185,7 @@
                                     <div class="find-doctor-cards__card__info__position">
                                         MD Internal Medicine
                                     </div>
-                                    <div class="find-doctor-cards__card__info__details-button"  onClick="window.open('../meeting/');">
+                                    <div class="find-doctor-cards__card__info__details-button"  onClick="location.href='../meeting/'">
                                         See appointment details
                                     </div>
 
@@ -212,7 +212,7 @@
                                     <div class="find-doctor-cards__card__info__position">
                                         MD Internal Medicine
                                     </div>
-                                    <div class="find-doctor-cards__card__info__details-button"  onClick="window.open('../meeting/');">
+                                    <div class="find-doctor-cards__card__info__details-button"  onClick="location.href='../meeting/'">
                                         See appointment details
                                     </div>
 
@@ -239,15 +239,13 @@
                                     <div class="find-doctor-cards__card__info__position">
                                         MD Internal Medicine
                                     </div>
-                                    <div class="find-doctor-cards__card__info__details-button"  onClick="window.open('../meeting/');">
+                                    <div class="find-doctor-cards__card__info__details-button"  onClick="location.href='../meeting/'">
                                         See appointment details
                                     </div>
 
                                 </div>
                             </div>
                         </div>
-                        
-            
             </div>
         </div>
         
@@ -271,5 +269,6 @@
         
         <script src="../dist/js/select.js"></script>
         <script src="../dist/js/modal.js"></script>
+        <script src="../dist/js/common.js"></script>
     </body>
 </HTML>

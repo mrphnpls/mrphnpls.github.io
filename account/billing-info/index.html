@@ -47,7 +47,7 @@
         
         <div class="header-mobile-bar">
             <img src="../../img/burger.svg" onCLick="openMobileMenu();"/>
-            <img src="../../img/back_arrow_white.svg" class="header-mobile-bar__arrow"/>
+            <img onClick="backHistory();" src="../../img/back_arrow_white.svg" class="header-mobile-bar__arrow"/>
         </div>
         
         <div class="header-mobile">
@@ -116,19 +116,25 @@
                 </div>
                 <div class="right-column">
                      <div class="pink-title">
-                        <img src="../../img/arrow_left.svg" class="pink-title__arrow" /> Billing information
+                        <img  onClick="backHistory();" src="../../img/arrow_left.svg" class="pink-title__arrow" /> Billing information
                      </div>
                 </div>
             </div>
             <div class="horiz-flex horiz-flex-wrap billing-cards">
-                <div class="billing-card" onCLick="window.open('credit-card/');">
-                    <img src="../../img/visa.svg" />
+                <div class="billing-card" onCLick="location.href='credit-card/'">
+                    <img class="billing-card__i" src="../../img/visa.svg" />
+                    <div class="billing-card__number">
+                        XXXX-XXXX-XXXX-<span>5437</span>
+                    </div>
                 </div>
-                <div class="billing-card" onCLick="window.open('credit-card/');">
-                    <img src="../../img/mastercard.svg" />
+                <div class="billing-card" onCLick="location.href='credit-card/'">
+                    <img class="billing-card__i" src="../../img/mastercard.svg" />
+                    <div class="billing-card__number">
+                        XXXX-XXXX-XXXX-<span>2411</span>
+                    </div>
                 </div>
-                <div class="billing-card" onCLick="window.open('credit-card/');">
-                    <img src="../../img/new_card.svg" />
+                <div class="billing-card" onCLick="location.href='credit-card/'">
+                    <img class="billing-card__i" src="../../img/new_card.svg" />
                 </div>
             </div>
             
@@ -187,7 +193,7 @@
             </div>
         </div>
         
-        <script src="../../dist/js/inputMask.js"></script>
+        <script src="../../dist/js/common.js"></script>
         <script src="../../dist/js/modal.js"></script>
     </body>
 </HTML>

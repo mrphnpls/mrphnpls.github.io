@@ -47,7 +47,7 @@
         
         <div class="header-mobile-bar">
             <img src="../../img/burger.svg" onCLick="openMobileMenu();"/>
-            <img src="../../img/back_arrow_white.svg" class="header-mobile-bar__arrow"/>
+            <img onClick="backHistory();" src="../../img/back_arrow_white.svg" class="header-mobile-bar__arrow"/>
         </div>
         
         <div class="header-mobile">
@@ -117,7 +117,7 @@
                 </div>
                 <div class="right-column">
                      <div class="pink-title">
-                        <img src="../../img/arrow_left.svg" class="pink-title__arrow" /> Change password
+                        <img onClick="backHistory();" src="../../img/arrow_left.svg" class="pink-title__arrow" /> Change password
                      </div>
                 </div>
             </div>
@@ -192,6 +192,8 @@
             </div>
         </div>
         
-        <script src="../../dist/js/modal.js"></script>
+        <script src="../../dist/js/modal.js"></script>        
+        <script src="../../dist/js/common.js"></script>
+
     </body>
 </HTML>

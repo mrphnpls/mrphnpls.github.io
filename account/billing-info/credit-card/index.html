@@ -47,7 +47,7 @@
         
         <div class="header-mobile-bar">
             <img src="../../../img/burger.svg" onCLick="openMobileMenu();"/>
-            <img src="../../../img/back_arrow_white.svg" class="header-mobile-bar__arrow"/>
+            <img onClick="backHistory();" src="../../../img/back_arrow_white.svg" class="header-mobile-bar__arrow"/>
 
         </div>
         
@@ -117,16 +117,19 @@
                 </div>
                 <div class="right-column">
                      <div class="pink-title">
-                        <img src="../../../img/arrow_left.svg" class="pink-title__arrow" /> Credit card
+                        <img onClick="backHistory();" src="../../../img/arrow_left.svg" class="pink-title__arrow" /> Credit card
                      </div>
                 </div>
             </div>
             <div class="horiz-flex credit-card">
                 <div class="credit-card__img">
-                    <img src="../../../img/visa.svg" />
+                    <img class="billing-card__i" src="../../../img/visa.svg" />
                     <div class="credit-card__img__remove-btn">
                         <a href="" class="pink-link"> Remove card
                         </a>
+                    </div>
+                    <div class="billing-card__number">
+                        XXXX-XXXX-XXXX-<span>5437</span>
                     </div>
                 </div>
                 <div class="credit-card__info">
@@ -234,8 +237,8 @@
             </div>
         </div>
         
-        <script src="../../../dist/js/inputMask.js"></script>
         <script src="../../../dist/js/creditCard.js"></script>
-        <script src="../../dist/js/modal.js"></script>
+        <script src="../../../dist/js/modal.js"></script>
+        <script src="../../../dist/js/common.js"></script>
     </body>
 </HTML>

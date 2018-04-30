@@ -274,13 +274,13 @@ html,body{
 }
 .meeting-box__info__name{
     background-color: #176D67;
-    width:60%;
+    width:55%;
     padding:15px;
     font-size: 14px;
 
 }
 .meeting-box__info__date{
-    width:40%;
+    width:45%;
     padding:15px;
     font-size: 14px;
 
@@ -827,16 +827,29 @@ html,body{
 .billing-card{
     cursor: pointer;
     margin:20px;
+    position: relative;
+}
+.billing-card__number{
+    text-align: center;
+    position: absolute;
+    top:80px;
+    left:0px;
+    right:0px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 18px;
+    color:white;
 }
 .credit-card{
     margin-top:60px;
 }
 .credit-card__img{
     margin-right:15px;
+    position: relative;
 }
 .credit-card__info{
     margin-left:15px;
     max-width: 400px;
+    min-width: 400px;
     display: flex;
     flex-direction: column;
 }
@@ -1097,32 +1110,32 @@ html,body{
     .pink-title__arrow{
         display: none;
     }
-}
-
-@media screen and (max-width: 740px) {
-    .sorting{
-        display: none;
+    .credit-card{
+        flex-wrap: wrap;
     }
-    .sorting-mobile{
-        display: block;
+    .credit-card__info{
+        min-width: inherit;
+        margin-right: 15px;
+        width: 100%;
     }
-}
-@media screen and (max-width: 526px) {
-    .info-block{
-        min-width: 270px;
+    .button-credit-card{
+        width:70%;
+        margin:0 auto;
+        margin-top:20px;
+        
     }
-    .right-column{
-        width:100%;
-       margin:30px 20px 0px 20px; 
-    }
-    .button{
-        padding:12px 18px 12px 18px;
+    .credit-card__button{
+        width: 100%;
+        margin-bottom:0px;
         text-align: center;
-        width:100%;
     }
-    .button-account, .button-call-a-doctor{
-        width:70%;    
+    .credit-card__img{
+        margin-left: 15px;
     }
+    .inputs-credit-card{
+        margin:0 auto;
+    }
+    
     .find-doctor-cards__card{
         flex-wrap: wrap;
     }
@@ -1165,7 +1178,7 @@ html,body{
         min-width: 120px;
     }
     .find-doctor-cards__card__info__availability{
-        width:79%;
+        width:76%;
     }
     .find-doctor-cards__card__info__button{
         display: none;
@@ -1173,9 +1186,56 @@ html,body{
     .find-doctor-cards__card__info__button-mobile{
         display: block;
     }
+   
+}
+
+@media screen and (max-width: 740px) {
+    .sorting{
+        display: none;
+    }
+    .sorting-mobile{
+        display: block;
+    }
+}
+@media screen and (max-width: 526px) {
+    .info-block{
+        min-width: 270px;
+    }
+    .right-column{
+        width:100%;
+       margin:30px 20px 0px 20px; 
+    }
+    .button{
+        padding:12px 18px 12px 18px;
+        text-align: center;
+        width:100%;
+    }
+    .button-account, .button-call-a-doctor{
+        width:70%;    
+    }
+    
     .horiz-flex{
         justify-content: flex-start;
     }
+    .billing-card__i{
+        width:100%;
+    }
+    .billing-card__number{
+        top:60px;
+    }
+     .credit-card{
+        justify-content: center;
+    }
+     .button-save-credit-card{
+        width:80%;
+    }
+    .button-credit-card{
+        width:70%;
+        margin:0 auto;
+        margin-top:20px;
+        
+    }
+    
 }
 
 
